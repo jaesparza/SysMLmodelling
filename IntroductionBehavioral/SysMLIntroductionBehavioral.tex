@@ -1,0 +1,136 @@
+\documentclass[xcolor=dvipsnames,t]{beamer}
+%\beamertemplatenavigationsymbolsempty
+
+%%\usepackage{enumitem}
+
+
+%\usepackage{svg}
+%\usepackage{graphicx}
+%\usepackage{outlines}
+%\usepackage{comment}
+%\usepackage{fourier}
+\newcommand\fixmegood[1]{\textcolor{red}{#1}}
+
+
+
+\graphicspath {{.}}
+
+%\mode<presentation>
+{
+\usetheme{Warsaw}
+%\usetheme{CambridgeUS}
+%\usetheme{Madrid}
+%\usetheme{Luebeck}
+%\useoutertheme[subsection=false]{miniframes}
+
+\useoutertheme{infolines}
+
+%\useoutertheme{default}
+
+%\useoutertheme{split}
+
+
+
+% Circles in plain color (no 3D effect).
+\useinnertheme{circles}
+
+\definecolor{NiceBlue}{rgb}{0.04,0.13,0.26}
+
+% Define corporate color
+\definecolor{Corporate}{RGB}{228,102,10}
+%\usecolortheme[named=Corporate]{structure}
+
+  % or ...
+  %\setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+%}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\title {Just enough SysML II}
+\subtitle {Concepts on SysML modelling of behaviour}
+\author[Jose A. Esparza Isasa (jois)]{{Jos\'e Antonio Esparza Isasa}\newline\url{jois@demant.com} }
+%%\date {\today}
+
+\date[] % (optional, should be abbreviation of conference name)
+{Knowledge sharing session @ HWAS \newline Kongebakken, September 2023}
+
+\begin {document}
+
+\begin{frame} %[plain]
+\vspace{1cm}
+\titlepage
+%\logo{\includegraphics[height=1cm]{i2.png}
+%  \hspace{4.2 in}
+%    \includegraphics[height=1cm]{i3.png}}
+\begin{center}
+%%%%%%%%%%%%%%%%%%%\includegraphics[height=1cm]{OMlogo.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Agenda}
+ \tableofcontents
+  % You might wish to add the option [pausesections]
+  % To keep a specific subsection out of the index use: \subsection*{...}
+  % To remove all subsections from the TOC only, use: \tableofcontents[hideallsubsections]
+
+%% Appendix A:\\
+%% Appendix B:\\
+%% Appendix C:
+\end{frame}
+
+
+\section{Introduction}
+
+
+\section{State machines}
+
+\subsection{Fundamentals}
+\subsection{States}
+%% Composition of a state
+%% 
+\subsection{Transitions}
+\subsection{Regions}
+%% Guards
+%% Signals
+
+\subsection{More on states}
+%% Orthogonal states
+%% Concurrent states
+
+\subsection{Going beyond the state machine context}
+
+
+\begin{frame}
+\frametitle {State machines}
+\end{frame}
+
+\section{Activity diagrams}
+\subsection{}
+\begin{frame}
+\frametitle {Activity diagrams}
+Good old flow diagrams with syntactic sugar.
+\end{frame}
+
+%% Tokens
+%% actions
+%% pins
+%% Fork, Merge, decissions, join
+%% Events, signals, accept event actions
+%% Activity partitions
+
+\section{Simulation}
+\begin{frame}
+\frametitle {Executing activities and state machines}
+\end{frame}
+
+\section{Concluding remarks}
+\subsection{}
+\begin{frame}
+\frametitle {Recapping}
+\end{frame}
+
+
+\end{document}
